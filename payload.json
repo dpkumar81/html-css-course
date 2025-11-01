@@ -1,0 +1,953 @@
+{
+  "timestamp": "1761909811000",
+  "metrics": [
+    {
+      "name": "brickSchema",
+      "datatype": 19,
+      "template_value": {
+        "version": "1.0",
+        "metrics": [
+          {
+            "name": "hasPart",
+            "datatype": 16,
+            "dataset_value": {
+              "num_of_columns": "1",
+              "columns": [
+                "devId"
+              ],
+              "types": [
+                12
+              ],
+              "rows": [
+                {
+                  "elements": [
+                    {
+                      "string_value": "CircuitA-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CircuitB-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CircuitC-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "Compressor-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CompressorA1-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CompressorA2-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CompressorB1-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CompressorB2-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CompressorC1-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "Condenser-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CondenserA-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CondenserB-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "CondenserC-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "EconomizerA-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "EconomizerB-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "EconomizerC-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "Evaporator-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "EvaporatorA-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "EvaporatorB-500387843248000001"
+                    }
+                  ]
+                },
+                {
+                  "elements": [
+                    {
+                      "string_value": "EvaporatorC-500387843248000001"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "parameters": [
+          {
+            "name": "brickClass",
+            "type": 12,
+            "string_value": "Chiller"
+          }
+        ],
+        "template_ref": "https://brickschema.org/ontology",
+        "is_definition": false
+      }
+    },
+    {
+      "name": "Serial_Number",
+      "datatype": 12,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Serial_Number"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "string_value": "500387843248000001"
+    },
+    {
+      "name": "Software_Version",
+      "datatype": 12,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Software_Version"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "string_value": "SCG-SR-20V47114"
+    },
+    {
+      "name": "PIC_Controller_Version",
+      "datatype": 12,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "PIC_Controller_Version"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "string_value": "PIC6"
+    },
+    {
+      "name": "equipmentFamily",
+      "datatype": 12,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Equipment_Family"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "string_value": "30KA"
+    },
+    {
+      "name": "Ice_Done_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Ice_Done_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Run_Time_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Run_Time_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 2406.0
+    },
+    {
+      "name": "Percent_Total_Capacity_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Percent_Total_Capacity_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "%"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Heating_2_Setpoint",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Heating_2_Setpoint"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "\u00b0F"
+          }
+        ]
+      },
+      "double_value": 100.0
+    },
+    {
+      "name": "Actual_Chiller_Current_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Actual_Chiller_Current_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "A"
+          }
+        ]
+      },
+      "double_value": 0.10330323874950409
+    },
+    {
+      "name": "Cooling_1_Setpoint",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Cooling_1_Setpoint"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "\u00b0F"
+          }
+        ]
+      },
+      "double_value": 44.599998474121094
+    },
+    {
+      "name": "Chiller_Occupied_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Chillek/Occupied_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "External_Temperature_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "External_Temperature_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "\u00b0F"
+          }
+        ]
+      },
+      "double_value": 84.39630126953125
+    },
+    {
+      "name": "Superheat_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Superheat_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "^F"
+          }
+        ]
+      },
+      "double_value": 41.86701965332031
+    },
+    {
+      "name": "Heat_Cool_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Heat_Cool_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Occupied_Override_Swtich_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Occupied_Override_Swtich_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Cooling_2_Setpoint",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Cooling_2_Setpoint"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "\u00b0F"
+          }
+        ]
+      },
+      "double_value": 44.05999755859375
+    },
+    {
+      "name": "Run_Status",
+      "datatype": 12,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Run_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "string_value": "Off"
+    },
+    {
+      "name": "Ready_Or_Running_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Ready_Or_Running_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Remote_Interlock_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Remote_Interlock_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Shutdown_Indicator_State_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Shutdown_Indicator_State_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Heating_1_Setpoint",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Heating_1_Setpoint"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "\u00b0F"
+          }
+        ]
+      },
+      "double_value": 100.0
+    },
+    {
+      "name": "Emergency_Push_Button_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Emergency_Push_Button_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Total_Starts_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Total_Starts_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 580.0
+    },
+    {
+      "name": "Running_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Running_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Start_Stop_Command",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Start_Stop_Command"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Alarm_Relay_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Alarm_Relay_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Cooling_Power_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Cooling_Power_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "kW"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Active_Power_Limit_Setpoint",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Active_Power_Limit_Setpoint"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "%"
+          }
+        ]
+      },
+      "double_value": 100.0
+    },
+    {
+      "name": "Minutes_Left_For_Start_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Minutes_Left_For_Start_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "min"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Override_Capacity_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Override_Capacity_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 54.0
+    },
+    {
+      "name": "Chiller_Current_Limit_Indicator_Sensor",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags",
+          "unitOfMeasure"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Chiller_Current_Limit_Indicator_Sensor"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          },
+          {
+            "type": 12,
+            "string_value": "A"
+          }
+        ]
+      },
+      "double_value": 4000.0
+    },
+    {
+      "name": "Alert_Relay_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Alert_Relay_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Chiller_Control_Mode_Status",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Chiller_Control_Mode_Status"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    },
+    {
+      "name": "Setpoint_Select_Parameter",
+      "datatype": 10,
+      "properties": {
+        "keys": [
+          "brickClass",
+          "cioTags"
+        ],
+        "values": [
+          {
+            "type": 12,
+            "string_value": "Setpoint_Select_Parameter"
+          },
+          {
+            "type": 12,
+            "string_value": "zephyr_tag_707e24b0-b182-5ec9-8bde-9720efbd1728"
+          }
+        ]
+      },
+      "double_value": 0.0
+    }
+  ],
+  "seq": "0"
+}
